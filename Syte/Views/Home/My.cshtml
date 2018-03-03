@@ -12,9 +12,13 @@
         </td>
     </tr>
     <tr>
-        <td>
-            Текст 2
-        </td>
     </tr>
+</table>
+<table class="table">
+    <tr><td>Свободные прокси сервера</td></tr>
+    @foreach (var item in LibarySyte.ParseProxiServer.ParseProxiServer.ParseProxies())
+    {
+        <tr><td>@item.Address.Host</td><td>@item.Address.Port</td></tr>
+    }
 </table>
 

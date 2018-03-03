@@ -45,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConstSyte\ConstOlimpikz\ConstParse.cs" />
     <Compile Include="ConstSyte\ConstSyte.cs" />
+    <Compile Include="ParseProxiServer\ParseProxiServer.cs" />
     <Compile Include="ParseSyte\Olimpikz\Parse\ParseOlimp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
